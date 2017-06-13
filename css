@@ -1,15 +1,114 @@
-.header h3{
-  color:blue;
+.header{
+  border-bottom: 1px solid black;
+  background-color:#fff;
+  background-size: auto;
+  width:auto;
+}
+li{
+  list-style-type: none;
+}
+.container{
+display: inline-block;
+font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial;
+width:auto;
+}
+.section-title{
+  border-bottom: 2px solid #dee7ee;
+  font-size:28px;
+  padding:20px 15px;
+  margin-bottom:50px;
 }
 
-.left-box{
+.header-right{
+height:90px;
+padding: 0 0 0 20px;
+
+}
+.header-right li{
+  float: left;
+  list-style: none;
+  padding:20px 20px;
+  font-size:18px;
+  margin-left: 60px;
+}
+.header-right:hover{
+  cursor: pointer;
+  color:#4682b4;
+}
+.header-left{
+  width:130px;
+  height: 70px;
+  padding: 0px 0 0 15px;
+  float:left;
+}
+.header-left img{
+  width: 130px;
+  height: 70px;
+  padding:0px 15px 0 15px;
+}
+.header-left:hover{
+  cursor: pointer;
+}
+
+
+.vision{
+  height:300px;
+  border-bottom: 1px solid black;
+}
+.vision h1{
+  padding:100px 40px;
+  text-align:center;
+}
+
+.about{
+  width:1800px;
+  height:800px;
+  border-bottom: 3px solid #4682b4;
+  background-color: #4682b4;
+}
+.contents-item{
+  float:left;
   height:500px;
-  width:500px;
+  margin:0px 150px 0 200px;
+  border:2px solid #f5f5f5;
+  padding:10px;
+}
+.contents-item li{
   text-align: center;
+  margin-bottom:10px;
+
 }
-.middle-box h2{
-  background: #d3d3d3;
+.sns{
+  height:200px;
 }
-.bottom-box{
-  list-style-type: none;
+.question{
+  height:1000px;
+}
+.client-question p{
+  margin:0px;
+  font-size: 8px;
+}
+.form{
+  border:black;
+}
+
+
+.footer{
+  background-color:#2f5167;
+  height:160px;
+}
+.datelogo{
+  width: 130px;
+  height: 70px;
+  padding:0px 15px 0 15px;
+}
+.footer-list{
+  float:right;
+  padding:10px 50px 0 10px;
+}
+.footer-list li{
+  padding-bottom:20px;
+  padding-right:30px;
+  font-size:14px;
+
 }
