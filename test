@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ヘッダーフッター</title>
+  <link rel="stylesheet" href="hf.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<header>
+  <div class="header">
+    <div class="logo">
+      <img src="Neweeロゴ_横.png" class="header-logo">
+    </div>
+      <div class="header-menu">
+        <div class="container">
+        <a href="#" class="button">HOME</a>
+        <a href="#" class="button">企業情報</a>
+        <a href="#" class="button">プレスルーム </a>
+        <a href="#" class="button">採用情報 </a>
+      </div>
+    </div>
+</div>
+</header>
+<div class="contents">
+  <div class="top-wrapper">
+    <div class="container">
+      <h1>月曜日が楽しみを作る</h1>
+    </div>
+  </div>
+  <img src="採用ページ.png" alt="menber">
+
+</div>
+
+<footer>
+  <div class="footer-menu">
+    <ul>
+      <li class="footer-list" href="#"><span>光回線事業部</span></li>
+      <li class="footer-list" href="#"><span>学メシ事業部</span></li>
+      <li class="footer-list" href="#"><span>SBC事業部</span></li>
+      <li class="footer-list" id="none" href="#"><span>企画広報部</span></li>
+    </ul>
+  </div>
+
+
+  <div id="social-icon" class="social-icon">
+    <a href="#"><i class="fa fa-facebook square" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-twitter fa-lg" ></i></a>
+  </div>
+
+  <div class="bottom-wrapper">Copyright@newee.inc</div>
+</footer>
+</body>
+</hrtml>
